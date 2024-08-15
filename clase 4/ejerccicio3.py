@@ -10,7 +10,7 @@ print("Usuario elige la operación matematica")
 print("1 - suma")
 print("2 - resta") #ingresar el número 2 para hacer una resta
 print("3 - producto")
-print("4 - dividison")
+print("4 - division")
 opcion = int(input("Ingrese opcion: ")) #para que la persona eliga
 
 if opcion == 1:
@@ -22,3 +22,6 @@ if opcion == 2:
 if opcion == 3:
     producto = a * b * c
     print(f"Producto: {producto}")
+if opcion == 4:
+    division = a / b / c 
+    print(f"division: {division}")
