@@ -4,7 +4,8 @@ a = 10
 b = 30
 c = 20
 
-#while True: #while es un ciclo. No se como hizo para avanzar todo una línea.
+#while True: 
+#while es un ciclo. 
 #para hacerlo más complejo
 print("Usuario elige la operación matematica")
 print("1 - suma")
