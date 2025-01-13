@@ -1,19 +1,17 @@
 #Variables por defecto
-
 a = 10
 b = 30
 c = 20
 
-#while True: 
-#while es un ciclo. 
-#para hacerlo más complejo
+#Opciones matemáticas
 print("Usuario elige la operación matematica")
 print("1 - suma")
-print("2 - resta") #ingresar el número 2 para hacer una resta
+print("2 - resta") 
 print("3 - producto")
 print("4 - division")
-opcion = int(input("Ingrese opcion: ")) #para que la persona eliga
+opcion = int(input("Ingrese opcion: ")) 
 
+#Condicional IF
 if opcion == 1:
     suma = a + b + c
     print(f"Suma: {suma}")

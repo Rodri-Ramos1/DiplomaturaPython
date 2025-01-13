@@ -1,5 +1,8 @@
+#Instanciando una variable
 cant_metros = float(input("Ingresar cantidad de metros: "))
-#hacer la conversión nosotros
+
+#La conversión 
+centimetros = cant_metros * 100 
 
 #Mostrar con un f-string
-print(f"metros en centimetros: {cant_metros}")
+print(f"{cant_metros} metros equivale a {centimetros} centimetros")
