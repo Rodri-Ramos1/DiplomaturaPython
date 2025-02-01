@@ -25,7 +25,7 @@ def crear_contacto():
 def buscar_contacto(contactos):
     nombre = input("Ingrese el nombre del contacto a buscar: ")
     for contacto in contactos:
-        if contacto[nombre] == nombre:
+        if contacto[nombre] == nombre: 
             return contacto
 
 #Mostrar Lista de contactos
@@ -40,7 +40,7 @@ def mostrar_contacto(contacto):
     print(f"email: {contacto["email"]}")
 
 #Eliminar contactos
-def elimanr_contacto(contactos):
+def eliminar_contacto(contactos):
     nombre = input("Ingrese el nombre del contacto a eliminar: ")
     for contacto in contactos:
         if contacto[nombre] == nombre:
