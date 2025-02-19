@@ -1,8 +1,8 @@
 import sqlite3
 #Ejercicio: 
-#Crear un agenda de contactos con POO, errores y excepciones y utilizar una base de datos sqlite.
+#Crear una agenda de contactos con POO, errores y excepciones y utilizar una base de datos sqlite.
 
-#Creando la clase 1: Contactos
+#Creando la clase 1: Contacto
 class Contacto:
     def __init__(self, nombre, numero, correo):
         self.nombre = nombre
