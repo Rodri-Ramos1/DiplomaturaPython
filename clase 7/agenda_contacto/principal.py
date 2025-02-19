@@ -1,4 +1,4 @@
-import base_dato
+import agenda_contacto.base_dato as base_dato
 
 base = base_dato.crear_bd("PrimeraBase.db")
 base_dato.crear_tabla(base,"""CREATE TABLE contacto(
